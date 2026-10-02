@@ -41,7 +41,7 @@ class Settings(BaseSettings):
     BIS_API_URL: str = ""
     GEM_BLACKLIST_API_URL: str = ""
 
-    ALLOWED_ORIGINS: str = "http://localhost:3000"
+    ALLOWED_ORIGINS: str = "*"
 
     @property
     def cors_origins(self) -> list[str]:
