@@ -17,7 +17,7 @@ import {
   demoNodes, demoScore, fmtTime, shortHash, nowStamp, UID,
 } from "./data";
 
-const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const API = "https://sih-64td.onrender.com";
 
 function getToken() {
   return typeof window !== "undefined" ? localStorage.getItem("token") : null;
